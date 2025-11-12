@@ -1,17 +1,19 @@
-import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
+import riseUp from "../assets/riseUp.png";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: '#home', label: 'Home' },
-    { href: '#about', label: 'About' },
-    { href: '#programs', label: 'Programs' },
-    { href: '#impact', label: 'Impact' },
-    { href: '#get-involved', label: 'Get Involved' },
-    { href: '#news', label: 'News & Events' },
-    { href: '#contact', label: 'Contact' },
+    { href: "#home", label: "Home" },
+    { href: "#about", label: "About" },
+    { href: "#programs", label: "Programs" },
+    { href: "#impact", label: "Impact" },
+    { href: "#get-involved", label: "Get Involved" },
+    { href: "#president", label: "President" },
+    { href: "#news", label: "News & Events" },
+    { href: "#contact", label: "Contact" },
   ];
 
   return (
@@ -20,7 +22,8 @@ export default function Header() {
         <div className="flex justify-between items-center py-4">
           <a href="#home" className="flex items-center space-x-3">
             <div className="w-12 h-12 bg-gradient-to-br from-[#004D40] to-[#F2C94C] rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-xl">AA</span>
+              <img src={riseUp} alt="" />
+              {/* <span className="text-white font-bold text-xl">AA</span> */}
             </div>
             <div>
               <h1 className="text-xl font-bold text-[#004D40]">AAYF</h1>

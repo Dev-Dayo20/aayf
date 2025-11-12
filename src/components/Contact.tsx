@@ -1,4 +1,12 @@
-import { MapPin, Phone, Mail, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Facebook,
+  Twitter,
+  Instagram,
+  Linkedin,
+} from "lucide-react";
 
 export default function Contact() {
   return (
@@ -10,7 +18,8 @@ export default function Contact() {
           </h2>
           <div className="w-24 h-1 bg-[#F2C94C] mx-auto mb-6"></div>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-            Get in touch with us. We're here to answer your questions and help you get involved.
+            Get in touch with us. We're here to answer your questions and help
+            you get involved.
           </p>
         </div>
 
@@ -26,11 +35,15 @@ export default function Contact() {
                     <MapPin size={24} className="text-[#004D40]" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-[#3E2723] mb-1">Address</h4>
+                    <h4 className="font-semibold text-[#3E2723] mb-1">
+                      Address
+                    </h4>
                     <p className="text-gray-700">
-                      Continental Secretariat<br />
-                      Addis Ababa, Ethiopia<br />
-                      (with regional offices across Africa)
+                      All Africa Youth Monorovia,
+                      <br />
+                      West Africa - Liberia
+                      {/* <br />
+                      (with regional offices across Africa) */}
                     </p>
                   </div>
                 </div>
@@ -42,13 +55,19 @@ export default function Contact() {
                   <div>
                     <h4 className="font-semibold text-[#3E2723] mb-1">Email</h4>
                     <p className="text-gray-700">
-                      <a href="mailto:info@aayf.org" className="hover:text-[#004D40] transition-colors">
-                        info@aayf.org
+                      <a
+                        href="mailto:info@allafricanyouth.org"
+                        className="hover:text-[#004D40] transition-colors"
+                      >
+                        info@allafricanyouth.org
                       </a>
                       <br />
-                      <a href="mailto:partnerships@aayf.org" className="hover:text-[#004D40] transition-colors">
+                      {/* <a
+                        href="mailto:partnerships@aayf.org"
+                        className="hover:text-[#004D40] transition-colors"
+                      >
                         partnerships@aayf.org
-                      </a>
+                      </a> */}
                     </p>
                   </div>
                 </div>
@@ -59,7 +78,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-[#3E2723] mb-1">Phone</h4>
-                    <p className="text-gray-700">+251-XXX-XXX-XXXX</p>
+                    <p className="text-gray-700"> +231 88 139 3886</p>
+                    <p className="text-gray-700"> +234 703 169 3020</p>
                   </div>
                 </div>
               </div>
@@ -112,7 +132,10 @@ export default function Contact() {
             </h3>
             <form className="space-y-4">
               <div>
-                <label htmlFor="name" className="block text-sm font-semibold text-[#3E2723] mb-2">
+                <label
+                  htmlFor="name"
+                  className="block text-sm font-semibold text-[#3E2723] mb-2"
+                >
                   Your Name
                 </label>
                 <input
@@ -124,7 +147,10 @@ export default function Contact() {
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-sm font-semibold text-[#3E2723] mb-2">
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-semibold text-[#3E2723] mb-2"
+                >
                   Your Email
                 </label>
                 <input
@@ -136,7 +162,10 @@ export default function Contact() {
               </div>
 
               <div>
-                <label htmlFor="subject" className="block text-sm font-semibold text-[#3E2723] mb-2">
+                <label
+                  htmlFor="subject"
+                  className="block text-sm font-semibold text-[#3E2723] mb-2"
+                >
                   Subject
                 </label>
                 <input
@@ -148,7 +177,10 @@ export default function Contact() {
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-sm font-semibold text-[#3E2723] mb-2">
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-semibold text-[#3E2723] mb-2"
+                >
                   Message
                 </label>
                 <textarea

@@ -1,11 +1,18 @@
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight } from "lucide-react";
+import img1 from "../assets/img1.jpg";
 
 export default function Hero() {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section
+      id="home"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+    >
       <div className="absolute inset-0 bg-gradient-to-br from-[#004D40] via-[#004D40] to-[#3E2723] opacity-95"></div>
 
-      <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1920')] bg-cover bg-center mix-blend-overlay opacity-20"></div>
+      <div
+        className="absolute inset-0 bg-cover bg-center mix-blend-overlay opacity-20"
+        style={{ backgroundImage: `url(${img1})` }}
+      ></div>
 
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center text-white pt-20">
         <div className="max-w-4xl mx-auto animate-fade-in">
@@ -16,7 +23,10 @@ export default function Hero() {
             Empowering the Next Generation of Transformative African Leaders
           </p>
           <p className="text-lg sm:text-xl mb-12 max-w-3xl mx-auto text-gray-200 leading-relaxed">
-            The All African Youth Forum (AAYF) is a transformative continental platform dedicated to empowering young African leaders through leadership development, policy dialogue, and Model African Union simulations.
+            The All African Youth Forum (AAYF) is a transformative continental
+            platform dedicated to empowering young African leaders through
+            leadership development, policy dialogue, and Model African Union
+            simulations.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -36,9 +46,22 @@ export default function Hero() {
         </div>
 
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <a href="#about" className="text-white opacity-75 hover:opacity-100 transition-opacity">
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+          <a
+            href="#about"
+            className="text-white opacity-75 hover:opacity-100 transition-opacity"
+          >
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M19 14l-7 7m0 0l-7-7m7 7V3"
+              />
             </svg>
           </a>
         </div>

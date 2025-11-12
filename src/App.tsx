@@ -1,13 +1,14 @@
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Programs from './components/Programs';
-import Impact from './components/Impact';
-import GetInvolved from './components/GetInvolved';
-import Partners from './components/Partners';
-import News from './components/News';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Programs from "./components/Programs";
+import Impact from "./components/Impact";
+import GetInvolved from "./components/GetInvolved";
+import Partners from "./components/Partners";
+import News from "./components/News";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import FounderMessage from "./components/FounderMessage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Impact />
       <GetInvolved />
       <Partners />
+      <FounderMessage />
       <News />
       <Contact />
       <Footer />

@@ -1,18 +1,22 @@
-import { Target, Eye, CheckCircle } from 'lucide-react';
+import { Target, Eye, CheckCircle } from "lucide-react";
+import img2 from "../assets/img2.jpg";
 
 export default function About() {
   const objectives = [
     {
-      title: 'Identify and Empower Youth Leaders',
-      description: 'We identify, train, and mentor young African leaders aged 18–35 who demonstrate outstanding commitment to civic engagement, ethical leadership, social innovation, and community development.',
+      title: "Identify and Empower Youth Leaders",
+      description:
+        "We identify, train, and mentor young African leaders aged 18–35 who demonstrate outstanding commitment to civic engagement, ethical leadership, social innovation, and community development.",
     },
     {
-      title: 'Foster Regional and Linguistic Diversity',
-      description: "Africa's diversity is its strength. AAYF ensures equitable representation from all five African Union regions with special attention to marginalized communities and linguistic minorities.",
+      title: "Foster Regional and Linguistic Diversity",
+      description:
+        "Africa's diversity is its strength. AAYF ensures equitable representation from all five African Union regions with special attention to marginalized communities and linguistic minorities.",
     },
     {
-      title: 'Align with Continental Frameworks',
-      description: 'Our work aligns with the African Youth Charter, Agenda 2063, and UN SDGs, ensuring our interventions contribute to measurable progress toward Africa\'s development commitments.',
+      title: "Align with Continental Frameworks",
+      description:
+        "Our work aligns with the African Youth Charter, Agenda 2063, and UN SDGs, ensuring our interventions contribute to measurable progress toward Africa's development commitments.",
     },
   ];
 
@@ -30,7 +34,7 @@ export default function About() {
           <div className="space-y-6">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden h-96">
               <img
-                src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src={img2}
                 alt="African Youth Leaders"
                 className="w-full h-full object-cover"
               />
@@ -40,10 +44,19 @@ export default function About() {
           <div className="flex flex-col justify-center space-y-6">
             <h3 className="text-3xl font-bold text-[#3E2723]">Who We Are</h3>
             <p className="text-lg text-gray-700 leading-relaxed">
-              The All African Youth Forum (AAYF) is a continental initiative uniting exceptional young leaders from all 55 member states of the African Union. We believe that Africa's greatest resource is its youth — and through deliberate engagement, inclusive dialogue, and institutional empowerment, the Forum acts as a catalyst for pan-African leadership renewal.
+              The All African Youth Forum (AAYF) is a continental initiative
+              uniting exceptional young leaders from all 55 member states of the
+              African Union. We believe that Africa's greatest resource is its
+              youth — and through deliberate engagement, inclusive dialogue, and
+              institutional empowerment, the Forum acts as a catalyst for
+              pan-African leadership renewal.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              AAYF brings together young innovators, policymakers, entrepreneurs, civil society leaders, and academics to exchange ideas, shape policy, and participate in transformative simulations and capacity-building programs that reflect the realities and aspirations of Africa's future.
+              AAYF brings together young innovators, policymakers,
+              entrepreneurs, civil society leaders, and academics to exchange
+              ideas, shape policy, and participate in transformative simulations
+              and capacity-building programs that reflect the realities and
+              aspirations of Africa's future.
             </p>
           </div>
         </div>
@@ -55,7 +68,9 @@ export default function About() {
               <h3 className="text-2xl font-bold">Our Vision</h3>
             </div>
             <p className="text-lg leading-relaxed">
-              To build a generation of ethical, innovative, and united African youth leaders who will drive sustainable development, peace, and prosperity across the continent.
+              To build a generation of ethical, innovative, and united African
+              youth leaders who will drive sustainable development, peace, and
+              prosperity across the continent.
             </p>
           </div>
 
@@ -65,13 +80,18 @@ export default function About() {
               <h3 className="text-2xl font-bold">Our Mission</h3>
             </div>
             <p className="text-lg leading-relaxed">
-              To provide a continental platform for youth leadership, policy innovation, and cross-cultural collaboration, empowering young Africans to contribute meaningfully to Agenda 2063 and the UN SDGs.
+              To provide a continental platform for youth leadership, policy
+              innovation, and cross-cultural collaboration, empowering young
+              Africans to contribute meaningfully to Agenda 2063 and the UN
+              SDGs.
             </p>
           </div>
         </div>
 
         <div>
-          <h3 className="text-3xl font-bold text-[#004D40] mb-8 text-center">Our Objectives</h3>
+          <h3 className="text-3xl font-bold text-[#004D40] mb-8 text-center">
+            Our Objectives
+          </h3>
           <div className="grid md:grid-cols-3 gap-8">
             {objectives.map((objective, index) => (
               <div
