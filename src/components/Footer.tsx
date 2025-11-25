@@ -7,7 +7,7 @@ import {
   Instagram,
   Linkedin,
 } from "lucide-react";
-import riseUp from "../assets/riseUp.png";
+import aayfLogo from "../assets/aayfLogo.webp";
 
 export default function Footer() {
   const quickLinks = [
@@ -25,18 +25,18 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-gradient-to-br from-[#004D40] to-[#3E2723] text-white">
+    <footer className="bg-gradient-to-br from-[#184c9f] via-[#184c9f] to-[#f68026] text-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <div className="w-12 h-12 bg-gradient-to-br from-[#F2C94C] to-[#e6bd3c] rounded-full flex items-center justify-center">
-                <img src={riseUp} alt="" />
+              <div className="w-12 h-12 flex items-center justify-center">
+                <img src={aayfLogo} alt="" />
                 {/* <span className="text-[#004D40] font-bold text-xl">AA</span> */}
               </div>
               <div>
                 <h3 className="text-xl font-bold">AAYF</h3>
-                <p className="text-sm text-gray-300">Rise Up Africa</p>
+                {/* <p className="text-sm text-gray-300">Rise Up Africa</p> */}
               </div>
             </div>
             <p className="text-gray-300 leading-relaxed mb-4">
@@ -81,7 +81,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-4 text-[#F2C94C]">
+            <h4 className="text-lg font-bold mb-4 text-[#f68026]">
               Quick Links
             </h4>
             <ul className="space-y-2">
@@ -99,7 +99,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-4 text-[#F2C94C]">Resources</h4>
+            <h4 className="text-lg font-bold mb-4 text-[#f68026]">Resources</h4>
             <ul className="space-y-2">
               {resources.map((link) => (
                 <li key={link.href}>
@@ -115,7 +115,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-4 text-[#F2C94C]">
+            <h4 className="text-lg font-bold mb-4 text-[#f68026]">
               Contact Info
             </h4>
             <ul className="space-y-3">
@@ -137,7 +137,7 @@ export default function Footer() {
               <li className="flex items-center space-x-2 text-gray-300">
                 <Phone size={18} className="flex-shrink-0" />
                 <span className="text-sm">
-                  +231 88 139 3886, +234 703 169 3020
+                  +231 880 475 277, +234 703 169 3020
                 </span>
               </li>
             </ul>

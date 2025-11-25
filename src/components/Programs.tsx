@@ -7,28 +7,28 @@ export default function Programs() {
       title: "Leadership Development",
       description:
         "Intensive workshops, mentorships, and training modules equipping participants with 21st-century leadership competencies in strategic leadership, ethical decision-making, public speaking, innovation, and community development.",
-      color: "from-[#004D40] to-[#006D5A]",
+      color: "from-[#184c9f] to-[#006D5A]",
     },
     {
       icon: MessageSquare,
       title: "Policy Dialogue",
       description:
         "Inclusive policy forums and roundtable discussions where young Africans engage with policymakers on critical issues like youth employment, peacebuilding, gender inclusion, and digital transformation.",
-      color: "from-[#3E2723] to-[#5D4037]",
+      color: "from-[#f68026] to-[#184c9f]",
     },
     {
       icon: Globe,
       title: "Model African Union",
       description:
         "Dynamic simulations allowing youth to experience AU decision-making processes firsthand, representing countries and deliberating on pressing continental issues while learning diplomacy and negotiation.",
-      color: "from-[#F2C94C] to-[#e6bd3c]",
+      color: "from-[#f68026] via-[#f68026] to-[#e6bd3c]",
     },
     {
       icon: Palette,
       title: "Cultural Exchange",
       description:
         "Celebrating Africa's rich cultural heritage through intercultural showcases, language exchanges, and artistic collaborations, promoting pan-African solidarity and lasting networks of collaboration.",
-      color: "from-[#004D40] to-[#F2C94e]",
+      color: "from-[#184c9f] to-[#006D5A]",
     },
   ];
 
@@ -36,10 +36,10 @@ export default function Programs() {
     <section id="programs" className="py-20 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-[#004D40] mb-4">
+          <h2 className="text-4xl sm:text-5xl font-bold text-[#184c9f] mb-4">
             Our Programs
           </h2>
-          <div className="w-24 h-1 bg-[#F2C94C] mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-[#f68026] mx-auto mb-6"></div>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
             Transformative initiatives designed to build leadership capacity,
             strengthen continental cooperation, and promote active youth

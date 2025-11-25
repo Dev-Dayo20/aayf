@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import riseUp from "../assets/riseUp.png";
+import aayfLogo from "../assets/aayfLogo.webp";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,13 +21,13 @@ export default function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <a href="#home" className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-[#004D40] to-[#F2C94C] rounded-full flex items-center justify-center">
-              <img src={riseUp} alt="" />
+            <div className="w-12 h-15 flex items-center justify-center">
+              <img src={aayfLogo} alt="" />
               {/* <span className="text-white font-bold text-xl">AA</span> */}
             </div>
             <div>
-              <h1 className="text-xl font-bold text-[#004D40]">AAYF</h1>
-              <p className="text-xs text-[#3E2723]">Rise Up Africa</p>
+              <h1 className="text-xl font-bold text-[#184c9f]">AAYF</h1>
+              {/* <p className="text-xs text-[#3E2723]">Rise Up Africa</p> */}
             </div>
           </a>
 

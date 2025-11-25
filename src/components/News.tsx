@@ -8,7 +8,7 @@ export default function News() {
       description:
         "Applications now open for the 2024 All African Youth Forum. Represent your country and be part of transformative continental dialogue.",
       date: "Ongoing",
-      color: "from-[#004D40] to-[#006D5A]",
+      color: "from-[#f68026] to-[#184c9f]",
     },
     {
       icon: Users,
@@ -16,7 +16,7 @@ export default function News() {
       description:
         "Join our intensive 6-month leadership development program featuring mentorship from distinguished African leaders.",
       date: "Opens Soon",
-      color: "from-[#F2C94C] to-[#e6bd3c]",
+      color: "from-[#f68026] to-[#e6bd3c]",
     },
     {
       icon: FileText,
@@ -24,7 +24,7 @@ export default function News() {
       description:
         "Contribute to our upcoming policy brief on youth employment and entrepreneurship in post-pandemic Africa.",
       date: "Submissions Open",
-      color: "from-[#3E2723] to-[#5D4037]",
+      color: "from-[#184c9f] to-[#006D5A]",
     },
     {
       icon: Award,
@@ -32,7 +32,7 @@ export default function News() {
       description:
         "Nominations open for youth-led initiatives demonstrating exceptional impact in their communities.",
       date: "Nominate Now",
-      color: "from-[#004D40] to-[#F2C94e]",
+      color: "from-[#184c9f] to-[#006D5A]",
     },
   ];
 
@@ -43,10 +43,10 @@ export default function News() {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-[#004D40] mb-4">
+          <h2 className="text-4xl sm:text-5xl font-bold text-[#184c9f] mb-4">
             News & Events
           </h2>
-          <div className="w-24 h-1 bg-[#F2C94C] mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-[#f68026] mx-auto mb-6"></div>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
             Stay updated with the latest AAYF announcements, upcoming forums,
             leadership programs, and opportunities.
@@ -104,7 +104,7 @@ export default function News() {
         </div>
 
         <div className="bg-white rounded-xl shadow-lg p-8 text-center">
-          <h3 className="text-2xl font-bold text-[#3E2723] mb-4">
+          <h3 className="text-2xl font-bold text-[#184c9f] mb-4">
             Never Miss an Update
           </h3>
           <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
@@ -117,7 +117,7 @@ export default function News() {
               placeholder="Enter your email"
               className="flex-1 px-6 py-3 border-2 border-gray-300 rounded-full focus:border-[#004D40] focus:outline-none transition-colors"
             />
-            <button className="px-8 py-3 bg-[#F2C94C] text-[#3E2723] font-semibold rounded-full hover:bg-[#e6bd3c] transition-all duration-300 shadow-lg">
+            <button className="px-8 py-3 bg-[#f68026] text-[#3E2723] font-semibold rounded-full hover:bg-[#e6bd3c] transition-all duration-300 shadow-lg">
               Subscribe
             </button>
           </div>

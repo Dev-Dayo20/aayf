@@ -13,10 +13,10 @@ export default function Contact() {
     <section id="contact" className="py-20 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-[#004D40] mb-4">
+          <h2 className="text-4xl sm:text-5xl font-bold text-[#184c9f] mb-4">
             Contact Us
           </h2>
-          <div className="w-24 h-1 bg-[#F2C94C] mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-[#f68026] mx-auto mb-6"></div>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
             Get in touch with us. We're here to answer your questions and help
             you get involved.
@@ -78,7 +78,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-[#3E2723] mb-1">Phone</h4>
-                    <p className="text-gray-700"> +231 88 139 3886</p>
+                    <p className="text-gray-700"> +231 880 475 277</p>
                     <p className="text-gray-700"> +234 703 169 3020</p>
                   </div>
                 </div>
@@ -94,7 +94,7 @@ export default function Contact() {
                   href="https://facebook.com/AllAfricanYouthForum"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-3 bg-[#004D40] text-white rounded-full hover:bg-[#006D5A] transform hover:scale-110 transition-all duration-300"
+                  className="p-3 bg-[#184c9f] text-white rounded-full hover:bg-[#006D5A] transform hover:scale-110 transition-all duration-300"
                 >
                   <Facebook size={24} />
                 </a>
@@ -102,7 +102,7 @@ export default function Contact() {
                   href="https://twitter.com/AAYF_Africa"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-3 bg-[#004D40] text-white rounded-full hover:bg-[#006D5A] transform hover:scale-110 transition-all duration-300"
+                  className="p-3 bg-[#184c9f] text-white rounded-full hover:bg-[#006D5A] transform hover:scale-110 transition-all duration-300"
                 >
                   <Twitter size={24} />
                 </a>
@@ -110,7 +110,7 @@ export default function Contact() {
                   href="https://instagram.com/aayf_africa"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-3 bg-[#004D40] text-white rounded-full hover:bg-[#006D5A] transform hover:scale-110 transition-all duration-300"
+                  className="p-3 bg-[#184c9f] text-white rounded-full hover:bg-[#006D5A] transform hover:scale-110 transition-all duration-300"
                 >
                   <Instagram size={24} />
                 </a>
@@ -118,7 +118,7 @@ export default function Contact() {
                   href="https://linkedin.com/company/all-african-youth-forum"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-3 bg-[#004D40] text-white rounded-full hover:bg-[#006D5A] transform hover:scale-110 transition-all duration-300"
+                  className="p-3 bg-[#184c9f] text-white rounded-full hover:bg-[#006D5A] transform hover:scale-110 transition-all duration-300"
                 >
                   <Linkedin size={24} />
                 </a>
@@ -193,7 +193,7 @@ export default function Contact() {
 
               <button
                 type="submit"
-                className="w-full px-8 py-4 bg-[#F2C94C] text-[#3E2723] font-bold rounded-lg hover:bg-[#e6bd3c] transform hover:scale-105 transition-all duration-300 shadow-lg"
+                className="w-full px-8 py-4 bg-[#f68026] text-[#3E2723] font-bold rounded-lg hover:bg-[#e6bd3c] transform hover:scale-105 transition-all duration-300 shadow-lg"
               >
                 Send Message
               </button>

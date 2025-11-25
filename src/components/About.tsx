@@ -24,10 +24,10 @@ export default function About() {
     <section id="about" className="py-20 bg-[#F6F2EC]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-[#004D40] mb-4">
+          <h2 className="text-4xl sm:text-5xl font-bold text-[#184c9f] mb-4">
             About Us
           </h2>
-          <div className="w-24 h-1 bg-[#F2C94C] mx-auto"></div>
+          <div className="w-24 h-1 bg-[#f68026] mx-auto"></div>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
@@ -42,7 +42,7 @@ export default function About() {
           </div>
 
           <div className="flex flex-col justify-center space-y-6">
-            <h3 className="text-3xl font-bold text-[#3E2723]">Who We Are</h3>
+            <h3 className="text-3xl font-bold text-[#f68026]">Who We Are</h3>
             <p className="text-lg text-gray-700 leading-relaxed">
               The All African Youth Forum (AAYF) is a continental initiative
               uniting exceptional young leaders from all 55 member states of the
@@ -62,9 +62,9 @@ export default function About() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 mb-16">
-          <div className="bg-gradient-to-br from-[#004D40] to-[#006D5A] text-white p-8 rounded-lg shadow-xl transform hover:scale-105 transition-all duration-300">
+          <div className="bg-gradient-to-br from-[#184c9f] to-[#006D5A] text-white p-8 rounded-lg shadow-xl transform hover:scale-105 transition-all duration-300">
             <div className="flex items-center mb-4">
-              <Eye size={40} className="text-[#F2C94C] mr-4" />
+              <Eye size={40} className="text-[#f68026] mr-4" />
               <h3 className="text-2xl font-bold">Our Vision</h3>
             </div>
             <p className="text-lg leading-relaxed">
@@ -74,9 +74,9 @@ export default function About() {
             </p>
           </div>
 
-          <div className="bg-gradient-to-br from-[#F2C94C] to-[#e6bd3c] text-[#3E2723] p-8 rounded-lg shadow-xl transform hover:scale-105 transition-all duration-300">
+          <div className="bg-gradient-to-br from-[#184c9f] to-[#f68026] text-[#ffff] p-8 rounded-lg shadow-xl transform hover:scale-105 transition-all duration-300">
             <div className="flex items-center mb-4">
-              <Target size={40} className="text-[#004D40] mr-4" />
+              <Target size={40} className="text-[#f68026] mr-4" />
               <h3 className="text-2xl font-bold">Our Mission</h3>
             </div>
             <p className="text-lg leading-relaxed">
@@ -89,19 +89,19 @@ export default function About() {
         </div>
 
         <div>
-          <h3 className="text-3xl font-bold text-[#004D40] mb-8 text-center">
+          <h3 className="text-3xl font-bold text-[#184c9f] mb-8 text-center">
             Our Objectives
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
             {objectives.map((objective, index) => (
               <div
                 key={index}
-                className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 border-[#F2C94C]"
+                className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 border-[#f68026]"
               >
                 <div className="flex justify-center mb-4">
-                  <CheckCircle size={48} className="text-[#004D40]" />
+                  <CheckCircle size={48} className="text-[#184c9f]" />
                 </div>
-                <h4 className="text-xl font-bold text-[#3E2723] mb-3 text-center">
+                <h4 className="text-xl font-bold text-[#184c9f] mb-3 text-center">
                   {objective.title}
                 </h4>
                 <p className="text-gray-700 leading-relaxed text-center">

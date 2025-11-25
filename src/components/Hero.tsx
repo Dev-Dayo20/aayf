@@ -7,7 +7,7 @@ export default function Hero() {
       id="home"
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      <div className="absolute inset-0 bg-gradient-to-br from-[#004D40] via-[#004D40] to-[#3E2723] opacity-95"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-[#184c9f] via-[#184c9f] to-[#f68026] opacity-95"></div>
 
       <div
         className="absolute inset-0 bg-cover bg-center mix-blend-overlay opacity-20"
@@ -17,7 +17,7 @@ export default function Hero() {
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center text-white pt-20">
         <div className="max-w-4xl mx-auto animate-fade-in">
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            Rise Up <span className="text-[#F2C94C]">Africa</span>
+            Rise Up <span className="text-[#f68026]">Africa</span>
           </h1>
           <p className="text-xl sm:text-2xl lg:text-3xl font-light mb-8 text-gray-100">
             Empowering the Next Generation of Transformative African Leaders
@@ -31,7 +31,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#get-involved"
-              className="inline-flex items-center justify-center px-8 py-4 bg-[#F2C94C] text-[#3E2723] font-semibold rounded-full hover:bg-[#e6bd3c] transform hover:scale-105 transition-all duration-300 shadow-lg"
+              className="inline-flex items-center justify-center px-8 py-4 bg-[#f68026] text-[#3E2723] font-semibold rounded-full hover:bg-[#e6bd3c] transform hover:scale-105 transition-all duration-300 shadow-lg"
             >
               Join the Movement
               <ArrowRight className="ml-2" size={20} />
